@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #23283e;
+  opacity: 0;
+  animation: fadeIn 3s ease-in-out forwards;
+}
+
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+  to {
+      opacity: 1;
+  }
+}
+
+header {
+  background-color: #23283e;
+  height: 10vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: -webkit-sticky; 
+  position: sticky; 
+  top: 0;
+  z-index: 1000;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%; 
+}
+
+.HeaderText {
+  display: flex;
+}
+
+.HeaderText a {
+  /*color: #bdbddd;*/
+  color: #90a0d9;
+  font-size: 20px;
+  margin-right: 15%;
+  margin-left: 0;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.HeaderText a:hover {
+  color: #ffffff; 
+}
+
+.HeaderText h1 {
+  font-size: 20px;
+}
+
+.content {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.content p {
+  color: #ffffff;
+  margin-left: 0;
+  margin-top: 125px;
+}
+
+.About {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10vh;
+  color: #bdbddd;
+  font-family: 'Times New Roman', Times, serif;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.About h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 3px;
+  color: #cdcdff
+}
+
+.About p {
+  margin-top: 20px;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  font-size: 22px;
+  color: #bdbddd;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 12vh;
+}
+
+.project-container h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 3px;
+}
+
+.ProjectHolder {
+  width: 50%; 
+  margin: 3% 0; 
+  padding: 20px; 
+  background-color: #23283e;
+  color: #ffffff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 5px; 
+  height: 50vh;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ProjectHolder:hover {
+  transform: scale(1.02); /* Slightly increase the size */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); /* Subtle shadow increase */
+}
+
+.skill-container {
+  color: #bdbddd;
+  margin-top: 12vh;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+}
+
+.skill-container h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 3px;
+}
+
+.skills {
+  font-size: 18px;
+}
+
+.skills {
+  margin-top: 5vh;
+}
+
+.skill-box {
+  background-color: #23283e;
+  color: #bdbddd;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1,0em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+  display: inline-block;
+}
+
+.skill-box:hover {
+  transform: scale(1.05);
+}
+
+.Icons {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 1%;
+}
+
+.Icons a {
+  color: #bdbddd; 
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.Icons a:hover {
+  color: #a0a0c0;
+}
