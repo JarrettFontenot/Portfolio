@@ -4,6 +4,7 @@ import About from './components/About';
 import Project from './components/Project';
 import Skills from './components/Skills';
 import Icon from './components/Icons';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -13,18 +14,7 @@ function App() {
       <Icon />
       <Project />
       <Skills />
-      <div class="content">
-        <p>Content goes here...</p>
-        <p>Content goes here...</p>
-        <p>Content goes here...</p>
-        <p>Content goes here...</p>
-        <p>Content goes here...</p>
-        <p>Content goes here...</p>
-        <p>Content goes here...</p>
-        <p>Content goes here...</p>
-        <p>Content goes here...</p>
-        <p>Content goes here...</p>
-    </div>
+      <Contact />
     </div>
   );
 }

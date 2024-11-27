@@ -13,10 +13,9 @@ function Project() {
 */
 function Project() {
     const projects = [
-        { title: "Disease Diagnosis", description: "Description of project 1" },
-        { title: "E-waste", description: "Description of project 2" },
-        { title: "Todo List", description: "Description of project 3" },
-        { title: "Travel Planner", description: "Description of project 4"},
+        { title: "EcoBytes", description: "Developed a full stack application that teaches the significgance of e-waste. The app locates nearby places to dispose of your own e-waste, and has sign up / log in features to enhance customization." },
+        { title: "Todo List", description: "Created a todo list application using the MERN stack, with the vision of using it on my personal machine" },
+        { title: "TravelBuddy", description: "Engineered a full stack travel planning application. The app allows users to book flights, hotels, and search for activities in the city of there choice."},
     ];
 
     return (
